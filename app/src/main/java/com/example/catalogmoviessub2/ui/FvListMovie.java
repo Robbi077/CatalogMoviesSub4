@@ -33,7 +33,7 @@ public class FvListMovie extends AppCompatActivity {
 
         progressBar.setVisibility(View.VISIBLE);
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("List My Favorit");
+            getSupportActionBar().setTitle("My Favorit List");
         }
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         recyclerView = findViewById(R.id.RVFvListMovie);

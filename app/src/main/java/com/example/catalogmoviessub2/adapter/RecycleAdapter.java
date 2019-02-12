@@ -46,6 +46,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHo
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, final int i) {
         final FavoriteItem listMovies = getItem(i);
+        Log.d("ContentSQL", listMovies.getTitle() + "");
         myViewHolder.txtTitle.setText(listMovies.getTitle());
         if (TextUtils.isEmpty(listMovies.getDetail())) {
             String kelompok_Desc = ".....";
