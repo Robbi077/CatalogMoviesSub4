@@ -14,9 +14,10 @@ import static com.example.catalogmoviessub2.Helper.DatabaseContract.FvColums.FIE
 
 public class DatabaseHelp extends SQLiteOpenHelper {
     public static String DATABASE_NAME = "dbFavorite";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String SQL_CREATE_TABLE_NOTE = String.format("CREATE TABLE %s"
                     + " (%s INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    " %s TEXT NOT NULL," +
                     " %s TEXT NOT NULL," +
                     " %s TEXT NOT NULL," +
                     " %s TEXT NOT NULL," +

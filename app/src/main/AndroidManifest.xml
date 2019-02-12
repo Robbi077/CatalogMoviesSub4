@@ -39,9 +39,9 @@
                 android:resource="@xml/fv_widget_service_info" />
         </service>
 
-        <activity android:name=".ui.FvListMovie" />
-        <activity android:name=".ui.FvDetailMovie" />
-        <activity android:name=".ui.DetailsMovies" />
+        <activity android:name=".ui.FvListMovie" android:parentActivityName=".MainActivity" />
+        <activity android:name=".ui.FvDetailMovie" android:parentActivityName=".ui.FvListMovie"/>
+        <activity android:name=".ui.DetailsMovies" android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

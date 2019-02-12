@@ -91,10 +91,14 @@ public class DetailsMovies extends AppCompatActivity {
             newNote.setImages(items.getImages());
             newNote.setPoster(items.getPoster());
             fvHelper.insert(newNote);
+            Log.d("Favadd", items.getTitle() + "");
+
             Toast.makeText(this, "Favorit Ditambahkan ", Toast.LENGTH_LONG).show();
             menuItem.setIcon(ContextCompat.getDrawable(this,
                     R.drawable.ic_favorite_red_24dp));
         } else {
+            Log.d("FavDel", items.getTitle() + "");
+
             fvHelper.delete(items.getTitle());
             Toast.makeText(this, "Favorit DIhapus ", Toast.LENGTH_LONG).show();
             menuItem.setIcon(ContextCompat.getDrawable(this,
