@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LyItemMovies"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/Horizontal_Margin"
+    android:paddingTop="@dimen/Vertical_Margin"
+    android:paddingRight="@dimen/Horizontal_Margin"
+    android:paddingBottom="@dimen/Vertical_Margin">
+
+    <ImageView
+        android:id="@+id/ImPoster"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/Horizontal_Margin"
+        android:layout_marginRight="@dimen/Horizontal_Margin"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/LnDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ImPoster"
+        android:layout_toRightOf="@+id/ImPoster"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/Horizontal_Margin"
+        android:paddingTop="@dimen/Vertical_Margin"
+        android:paddingRight="@dimen/Horizontal_Margin"
+        android:paddingBottom="@dimen/Vertical_Margin">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/name_movie"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/overview"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/txt_realeas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/realeasdate"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/btn_favorite"
+            android:icon="@drawable/ic_favorite_red_24dp"
+            app:showAsAction="always"
+            android:title="@string/Favorit_List"/>
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/Language"
+            android:title="@string/Language" />
+    </group>
+</menu>

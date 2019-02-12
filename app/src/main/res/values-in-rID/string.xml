@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatalogMovies_Sub3</string>
+    <string name="judul_movies">Judul Movies</string>
+    <string name="name_movie">Nama</string>
+    <string name="overview">Descripsi</string>
+    <string name="realeasdate">Tanggal Terbit</string>
+    <string name="Judul_Movies">Nama</string>
+    <string name="share">Bagikan</string>
+    <string name="Language">Rubah Bahasa</string>
+    <string name="detail">Baca</string>
+    <string name="nowplaying">SEDANG TAYANG</string>
+    <string name="upcoming">AKAN TAYANG</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/horizontalMargin"
+    android:paddingTop="@dimen/verticalMargin"
+    android:paddingRight="@dimen/horizontalMargin"
+    android:paddingBottom="@dimen/verticalMargin"
+    tools:context=".TabLayoutFragment.UpComingFragment">
+
+    <ProgressBar
+        android:id="@+id/Progress_Bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTintMode="src_atop"
+        android:layout_gravity="center"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RcUp_Coming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

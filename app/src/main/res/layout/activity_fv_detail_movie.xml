@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fv_Detail_Movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/verticalMargin"
+    android:paddingRight="@dimen/horizontalMargin"
+    tools:context=".ui.FvDetailMovie">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/verticalMargin"
+        android:paddingTop="@dimen/verticalMargin"
+        android:paddingRight="@dimen/horizontalMargin"
+        android:paddingBottom="@dimen/verticalMargin">
+
+        <ImageView
+            android:id="@+id/fv_detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/fv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fv_detail_img"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/fv_detail_release"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fv_detail_title"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/fv_detail_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fv_detail_release"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+</ScrollView>

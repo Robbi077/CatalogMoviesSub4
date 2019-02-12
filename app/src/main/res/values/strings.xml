@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CatalogMovies_Sub3</string>
+    <string name="judul_movies">Movies Title</string>
+    <string name="name_movie">Name</string>
+    <string name="overview">Overview</string>
+    <string name="realeasdate">realeasdate</string>
+    <string name="Judul_Movies">Name</string>
+    <string name="share">Share</string>
+    <string name="Language">Change Language</string>
+    <string name="detail">Detail</string>
+    <string name="nowplaying">NOW PLAYING</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="favorit">Favorite</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">My Favorite</string>
+    <string name="Favorit_List">Favorite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
